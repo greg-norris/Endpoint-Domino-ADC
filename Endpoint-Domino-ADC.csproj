@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Endpoint_Domino_ADC</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GHIElectronics.Endpoint.Core" Version="0.0.2.6-alpha" />
+    <PackageReference Include="GHIElectronics.Endpoint.Devices.Adc" Version="0.0.2.6-alpha" />
+  </ItemGroup>
+
+</Project>
